@@ -1,0 +1,19 @@
+.contact-content {
+    height: 499px;
+    /* background-color: orange; */
+    /* display:flex; */
+    justify-content: space-around;
+    padding: 9px;
+    position: relative;
+}
+
+.contact-content::after {
+    content: "", ;
+    background-image: url("./ram-ji.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}

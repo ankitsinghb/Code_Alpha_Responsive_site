@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@1,800&family=Roboto:wght@300&family=Teko:wght@300&display=swap');
+
+:root {
+    --main-bg-color: orange;
+    --font1: 'baloo bhaina 2', cursive;
+    --font2: 'roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 88vw;
+}
+
+.max-width-2 {
+    max-width: 68vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-input {
+    padding: 1 11px;
+    margin: 0px 9px;
+    border: 2px solid black;
+    border-radius: 32px;
+    font-family: var(--font1);
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.form-box input,textarea{
+    width:52vw;
+    padding:10px 6px;
+    margin:7px 0px;
+}
+
+.form-input:hover {
+    color: rgb(147, 46, 3);
+    background-color: orange;
+}
+
+.btn {
+    padding: 0px 11px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: orange;
+    background-color: var(--main-bg-color);
+}
